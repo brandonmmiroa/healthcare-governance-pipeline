@@ -2,10 +2,6 @@
 
 An end-to-end, privacy-first data engineering and predictive analytics pipeline that ingests live environmental telemetry, applies a cryptographic pseudonymization firewall to protect patient privacy, and streams data into a secure cloud data warehouse to forecast hospital operational load.
 
-## 📊 Live Production Dashboard
-you can explore the interactive analytics built from this pipeline here:
-[![View Tableau Dashboard](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-blue?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/ClinicalOperationsEnvironmentalDemandForecast/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 ## 🚀 Project Overview
 This project demonstrates a production-grade data architecture focused on **Data Governance and Predictive Modeling**. In healthcare and public health sectors, handling patient data requires strict adherence to compliance frameworks (such as POPIA and HIPAA). This pipeline ensures that no direct Patient Identifiers (PII) ever reach the cloud analytics tier unencrypted, while maintaining the complete analytical integrity of the dataset for machine learning.
 
@@ -30,6 +26,10 @@ This project demonstrates a production-grade data architecture focused on **Data
 2. **Least Privilege Infrastructure:** The Supabase cloud data warehouse explicitly enforces Row-Level Security (RLS) policies, allowing authenticated `service_role` tokens strictly controlled access to prevent open public web exploitation.
 
 ## 📈 Dashboard Layout
-The final dataset feeds a production-ready operational dashboard featuring:
+The final dataset feeds a production-ready operational dashboard. Click the badge below to explore the live interactive views:
+
+[![View Tableau Dashboard](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-blue?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/ClinicalOperationsEnvironmentalDemandForecast/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+### Features Included:
 * **The Operational Surge Forecast:** A dual-axis timeline tracking actual vs. predicted daily admission volumes.
 * **Environmental Risk Thresholds:** A scatter plot with an active regression line mapping pollution severity to emergency admissions.
