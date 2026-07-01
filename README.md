@@ -3,7 +3,7 @@
 An end-to-end, privacy-first data engineering and predictive analytics pipeline that ingests live environmental telemetry, applies a cryptographic pseudonymization firewall to protect patient privacy, and streams data into a secure cloud data warehouse to forecast hospital operational load.
 
 ## 📊 Live Production Dashboard
-Recruiters and hiring managers can explore the interactive analytics built from this pipeline here:
+you can explore the interactive analytics built from this pipeline here:
 [![View Tableau Dashboard](https://img.shields.io/badge/Tableau-Interactive%20Dashboard-blue?style=for-the-badge&logo=tableau&logoColor=white)](https://public.tableau.com/views/ClinicalOperationsEnvironmentalDemandForecast/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 🚀 Project Overview
